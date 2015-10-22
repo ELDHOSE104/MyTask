@@ -4,7 +4,7 @@ body{
 a {
 color: #E1704B;
 transition: color 0.5s ease;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 a:hover{
     cursor:pointer;
