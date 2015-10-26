@@ -1,5 +1,5 @@
 <?php 
-require_once '../includes/db.php'; // The mysql database connection script
+require_once 'db.php'; // The mysql database connection script
 $status = '%';
 if(isset($_GET['status'])){
 $status = $_GET['status'];
