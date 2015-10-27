@@ -3,14 +3,14 @@
 		<title>MyTask - A small Task Management Application</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/taskman.css"/>
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
 
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
     </head>
     <body ng-controller="tasksController">
     
 
 	<div class="row">
-    	<div class="container">
+    	<div class="container cont">
     		<blockquote>
 				<h1>
 					<a href="#">Welcome to MyTask
