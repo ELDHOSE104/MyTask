@@ -1,7 +1,7 @@
 <?php 
-$DB_HOST = 'mysql.hostinger.in';
-$DB_USER = 'u679683804_eldho';
-$DB_PASS = 'eldhose4444';
-$DB_NAME = 'u679683804_todo';
+$DB_HOST = 'localhost';
+$DB_USER = 'root';
+$DB_PASS = 'qburst';
+$DB_NAME = 'angularcode_task';
 $mysqli = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 ?>
