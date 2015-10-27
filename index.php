@@ -13,7 +13,7 @@
     	<div class="container cont">
     		<blockquote>
 				<h1>
-					<a href="#">Welcome to MyTask
+					<a href="#">Welcome to MyTask..
 					</a>
 				</h1>
 			</blockquote>
