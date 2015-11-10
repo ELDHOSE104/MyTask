@@ -1,7 +1,7 @@
 <html>
 <title>Welcome to MyTask</title>
 <link rel="stylesheet" href="css/login.css">
-<body>
+<body style="width: 100%;">
 <form>
   <div class="group">
     <input type="text"><span class="highlight"></span><span class="bar"></span>
