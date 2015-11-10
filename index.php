@@ -1,30 +1,22 @@
-<html ng-app="myApp">
-    <head>
-		<title>MyTask - A small Task Management Application</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/taskman.css"/>
-
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700" rel="stylesheet" type="text/css">
-    </head>
-    <body ng-controller="tasksController">
-    
-
-	<div class="row">
-    	<div class="container cont">
-    		<blockquote>
-				<h1>
-					<a href="#">Welcome to MyTask...
-					</a>
-				</h1>
-			</blockquote>
-    		<div class="col-sm-9">
-    			<div ng-include src="'partials/task.html'"></div>
-    		</div>
-    	
-    	</div>
-    </div>
-    	
-	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-	<script type="text/javascript" src="app/app.js"></script>
-    </body>
+<html>
+<title>Welcome to MyTask</title>
+<link rel="stylesheet" href="css/login.css">
+<body>
+<form>
+  <div class="group">
+    <input type="text"><span class="highlight"></span><span class="bar"></span>
+    <label>Name</label>
+  </div>
+  <div class="group">
+    <input type="email"><span class="highlight"></span><span class="bar"></span>
+    <label>Email</label>
+  </div>
+  <button type="button" class="button buttonBlue">Subscribe
+    <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+  </button>
+</form>
+<footer>
+  <p>Created with passion</p>
+</footer>
+</body>
 </html>
