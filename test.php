@@ -37,7 +37,7 @@
                 					</a>
                 				</h1>
                 			</blockquote>
-                    		<div class="col-sm-9">
+                    		<div class="col-sm-9" style="width: 100%;">
                     			<div ng-include src="'partials/task.html'"></div>
                     		</div>
 
