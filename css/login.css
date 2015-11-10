@@ -18,7 +18,7 @@ h1 { color: #636363; }
 h3 { color: #4a89dc; }
 
 form {
-    width: 380px;
+    width: 100%;
     margin: 4em auto;
     padding: 3em 2em 2em 2em;
     background: #fafafa;
