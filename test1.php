@@ -17,5 +17,6 @@
 <footer>
   <p>Created with passion</p>
 </footer>
+<script type="text/javascript" src="app/app.js"></script>
 </body>
 </html>
