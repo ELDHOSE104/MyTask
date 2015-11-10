@@ -20,7 +20,7 @@
 	</head>
 	<body ng-controller="tasksController">
 	
-		<div class="container" style="width: 100%">
+		<div class="container" style="width: 100%;padding-left: 0px;padding-right: 0px;">
 			<!-- COVER IMAGE AND FLOATING BUTTON -->
 			<div class="cover-image"></div>
 
