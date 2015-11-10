@@ -26,7 +26,7 @@
 
 			
 
-			<div class="wow fadeInUp content-card">
+			<div class="wow fadeInUp content-card" style="width:100%;">
 
 
 				<div class="row">
