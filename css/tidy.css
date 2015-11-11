@@ -152,7 +152,7 @@ a:active
 
 .cover-image 
 {
-	background-image:url(../img/appsite_hero.png);
+	background-color: #F44336;
 	background-size:cover;
 	background-position:center;
 	height:100%;
