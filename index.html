@@ -7,7 +7,7 @@
   <title>MyTask - A simple task management application</title>
   <!-- CORE CSS-->
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 
 <style type="text/css">
 html,
@@ -46,7 +46,7 @@ body {
 
   <div id="login-page" class="row">
     <div class="col s12 z-depth-6 card-panel">
-      <form class="login-form">
+      <form class="login-form" method="post">
         <div class="row">
           <div class="input-field col s12 center">
             <img src="img/taskManager-logo.jpg" alt="" class="responsive-img valign profile-image-login" style="height: 12rem;">
@@ -57,7 +57,7 @@ body {
         <div class="row margin">
           <div class="input-field col s12">
             <i class="mdi-social-person-outline prefix"></i>
-            <input class="validate" id="email" type="email">
+            <input class="validate" id="email" type="email" name="email">
             <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
           </div>
         </div>
@@ -76,7 +76,7 @@ body {
         </div>
         <div class="row">
           <div class="input-field col s12">
-            <a href="login.html" class="btn waves-effect waves-light col s12">Login</a>
+            <a href="validate.php" class="btn waves-effect waves-light col s12">Login</a>
           </div>
         </div>
         <div class="row">
@@ -98,7 +98,7 @@ body {
   <!-- jQuery Library -->
  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <!--materialize js-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <script src="js/materialize.min.js"></script>
 </body>
 
 </html>
