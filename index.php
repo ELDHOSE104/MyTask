@@ -37,6 +37,11 @@ body {
         font-size: 15px;
         font-family: 'Roboto Mono', 'Consolas', 'Menlo', monospace;
     }
+    .google
+    {
+        height: 50%;
+        width: 50%;
+    }
 </style>
   
 </head>
@@ -55,38 +60,14 @@ body {
               <p class="center login-form-text login">Please Login to Continue...</p>
           </div>
         </div>
+
         <div class="row margin">
-          <div class="input-field col s12">
-            <i class="mdi-social-person-outline prefix"></i>
-            <input class="validate" id="phpro_username" type="email" name="phpro_username">
-            <label for="phpro_username" data-error="wrong" data-success="right" class="center-align">Email</label>
-          </div>
+            <div align="center">
+                <a class="login" href="https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%2FMyTask%2F&client_id=492769946544-ktjauuhqughrgre7blu2b6cmuuir1688.apps.googleusercontent.com&scope=email+profile&access_type=online&approval_prompt=auto" target="_blank"><img class="google" src="img/loginButton.png" /></a>
+            </div>
         </div>
-        <div class="row margin">
-          <div class="input-field col s12">
-            <i class="mdi-action-lock-outline prefix"></i>
-            <input id="phpro_password" type="password" name="phpro_password">
-            <label for="phpro_password">Password</label>
-          </div>
-        </div>
-        <div class="row">          
-          <div class="input-field col s12 m12 l12  login-text">
-              <input type="checkbox" id="remember-me" />
-              <label for="remember-me">Remember me</label>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <button type="submit" name="submit" value="Submit" class="btn waves-effect waves-light col s12" >Login</button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s6 m6 l6">
-            <p class="margin medium-small"><a href="partials/register.html">Register Now!</a></p>
-          </div>
-          <div class="input-field col s6 m6 l6">
-              <p class="margin right-align medium-small"><a href="partials/forgot-password.html">Forgot password?</a></p>
-          </div>          
+            <div class="row">
+
         </div>
 
       </form>
