@@ -43,7 +43,7 @@ body {
         width: 50%;
     }
 </style>
-  
+
 </head>
 
 <body class="red">
