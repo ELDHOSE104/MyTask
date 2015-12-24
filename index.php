@@ -56,7 +56,7 @@ body {
         <div class="row">
           <div class="input-field col s12 center">
             <img src="img/taskManager-logo.jpg" alt="" class="responsive-img valign profile-image-login" style="height: 12rem;">
-              <p class="center login-form-text tag">Welcome to MyTask - A simple Task Management application.</p>
+              <p class="center login-form-text tag"></p>
               <p class="center login-form-text login">Please Login to Continue...</p>
           </div>
         </div>
