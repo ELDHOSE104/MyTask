@@ -6,15 +6,16 @@ MyTask is an application that is written to ease the tasks that we have to follo
 ## Note ! A valid Gmail is needed to access the task list area.
 ###Highlights Include
 
- * Work completion option
- * create new tasks
- * Prioritise the tasks etc
+* Work completion option
+* create new tasks
+* Prioritise the tasks etc
+
 ##Technology Used
 
- * Angular JS
- * PHP
- * MySql
- * Google API
+* Angular JS
+* PHP
+* MySql
+* Google API
  
 ##Note ! This product is still in Development, if you see any bugs, please feel free to contact me.
 ###email: eldhose104@gmail.com
