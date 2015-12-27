@@ -1,8 +1,8 @@
 <?php
-$host_name = $DB_HOST = 'localhost';
-$db_username = $DB_USER = 'root';
-$db_password = $DB_PASS = 'qburst';
-$db_name = $DB_NAME = 'angularcode_task';
+$host_name = $DB_HOST = 'mysql.hostinger.in';
+$db_username = $DB_USER = 'u679683804_eldho';
+$db_password = $DB_PASS = 'eldhose4444';
+$db_name = $DB_NAME = 'u679683804_todo';
 
 /*login with google keys*/
 $client_id = '492769946544-ktjauuhqughrgre7blu2b6cmuuir1688.apps.googleusercontent.com';
